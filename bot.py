@@ -1,7 +1,6 @@
 import asyncio
 import logging
 import sqlite3
-import requests
 from datetime import datetime, timedelta
 
 from aiogram import Bot, Dispatcher, Router, F
