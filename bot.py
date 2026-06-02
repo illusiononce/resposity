@@ -46,7 +46,7 @@ PLANS = {
 # ══════════════════════════════════════════════════════════════════
 
 def db():
-    conn = sqlite3.connect("/data/bot.db")
+    conn = sqlite3.connect("bot.db")
     conn.row_factory = sqlite3.Row
     return conn
 
