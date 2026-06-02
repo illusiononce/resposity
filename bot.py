@@ -32,7 +32,7 @@ CHANNEL_USERNAME = "@noryxhack"
 CHANNEL_ID       = -1003928878729   # ID канала (см. README)
 ADMINS           = ["illusiononce", "ANTIITAPCHIKo"]  # юзернеймы без @
 BETA_LINK        = "https://t.me/+ueQeqop01DRiM2Ni"
-DATABASE_PATH    = "noryxhack.db"
+DATABASE_PATH    = "bot.db"
 PROMO_DISCOUNT   = 8  # %
 
 PLANS = {
@@ -46,7 +46,7 @@ PLANS = {
 # ══════════════════════════════════════════════════════════════════
 
 def db():
-    conn = sqlite3.connect(DATABASE_PATH)
+    conn = sqlite3.connect("/data/bot.db")
     conn.row_factory = sqlite3.Row
     return conn
 
