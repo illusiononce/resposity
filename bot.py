@@ -32,9 +32,9 @@ CHANNEL_USERNAME = "@noryxhack"
 CHANNEL_ID       = -1003928878729   # ID канала (см. README)
 ADMINS           = ["illusiononce", "ANTIITAPCHIKo", "f_luger"]  # юзернеймы без @
 BETA_LINK        = "https://t.me/+ueQeqop01DRiM2Ni"
-DATABASE_PATH    = "DATABASE_URL="postgresql://postgres.lriagtyzxhquojilqnsx:[noryxhackbustit67]@aws-1-eu-central-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
+DATABASE_PATH    = "postgresql://postgres.lriagtyzxhquojilqnsx:[noryxhackbustit67]@aws-1-eu-central-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
 
-PROMO_DISCOUNT   = 8  # %
+PROMO_DISCOUNT   = 9  # %
 
 PLANS = {
     "30D":      {"days": 30,    "stars": 90,  "label": "30 дней"},
