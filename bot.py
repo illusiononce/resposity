@@ -27,12 +27,13 @@ logger = logging.getLogger("NoryxHack")
 #   КОНФИГУРАЦИЯ  —  заполни перед запуском!
 # ══════════════════════════════════════════════════════════════════
 
-BOT_TOKEN        = "8951682715:AAGE3jsAR7h699XV582Hl9ZIEReJd4Y-mqo"
+BOT_TOKEN        = "8951682715:AAGu2N_L9OhvLXc1wfoupk4oC9mbMsSXHJg"
 CHANNEL_USERNAME = "@noryxhack"
 CHANNEL_ID       = -1003928878729   # ID канала (см. README)
 ADMINS           = ["illusiononce", "ANTIITAPCHIKo", "f_luger"]  # юзернеймы без @
 BETA_LINK        = "https://t.me/+ueQeqop01DRiM2Ni"
-DATABASE_PATH    = "bot.db"
+DATABASE_PATH    = "DATABASE_URL="postgresql://postgres.lriagtyzxhquojilqnsx:[noryxhackbustit67]@aws-1-eu-central-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
+
 PROMO_DISCOUNT   = 8  # %
 
 PLANS = {
@@ -46,7 +47,7 @@ PLANS = {
 # ══════════════════════════════════════════════════════════════════
 
 def db():
-    conn = sqlite3.connect("bot.db")
+    conn = sqlite3.connect("postgresql://postgres.lriagtyzxhquojilqnsx:[noryxhackbustit67]@aws-1-eu-central-1.pooler.supabase.com:6543/postgres?pgbouncer=true")
     conn.row_factory = sqlite3.Row
     return conn
 
